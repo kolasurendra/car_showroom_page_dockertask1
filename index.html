@@ -1,0 +1,44 @@
+<!-- Car Showroom Example -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Showroom</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; }
+    .showroom { max-width: 900px; margin: 40px auto; padding: 20px; background: #fff; border-radius: 8px; }
+    .car-list { display: flex; flex-wrap: wrap; gap: 20px; }
+    .car-card { background: #eee; border-radius: 6px; padding: 16px; width: 250px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    .car-card img { width: 100%; border-radius: 4px; }
+    .car-card h3 { margin: 10px 0 6px; }
+    .car-card p { margin: 0 0 8px; }
+    .car-card button { background: #007bff; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+    .car-card button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <div class="showroom">
+    <h1>Welcome to Our Car Showroom</h1>
+    <div class="car-list">
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1511918984145-48de785d4c4e?auto=format&fit=crop&w=400&q=80" alt="Sedan">
+        <h3>Luxury Sedan</h3>
+        <p>2023 Model • Automatic • Petrol</p>
+        <button>View Details</button>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80" alt="SUV">
+        <h3>Family SUV</h3>
+        <p>2022 Model • Manual • Diesel</p>
+        <button>View Details</button>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1461632830798-3adb3034e4c8?auto=format&fit=crop&w=400&q=80" alt="Sports Car">
+        <h3>Sports Car</h3>
+        <p>2024 Model • Automatic • Petrol</p>
+        <button>View Details</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
